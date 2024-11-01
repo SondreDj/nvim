@@ -10,6 +10,6 @@ return {
     config = function ()
     	vim.keymap.set("n","<leader>e",function ()
     	  vim.cmd("Neotree filesystem toggle right")
-    	end, {desc="Neotree"})
+    	end, {desc="Neotree toggle"})
     end
 }
