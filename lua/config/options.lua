@@ -19,8 +19,8 @@ vim.keymap.set('n', '<c-down>', function () vim.cmd.wincmd("j") end, {desc="Focu
 vim.keymap.set('n', '<c-left>', function () vim.cmd.wincmd("h") end, {desc="Focus window left"})
 vim.keymap.set('n', '<c-right>', function () vim.cmd.wincmd("l") end, {desc="Focus window right"})
 
-vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv") -- move line up(v)
-vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv") -- move line down(v)
+vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv",{desc="move line up(v)"})
+vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv",{desc="move line down(v)"})
 
 vim.cmd("set number")
 vim.cmd("set rnu")
