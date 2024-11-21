@@ -23,6 +23,7 @@ return {
       end, {desc="Telescope"})
       vim.keymap.set("n", "<leader>gt", builtin.find_files, {desc="Find files"})
       vim.keymap.set("n", "<leader>gg", builtin.live_grep, {desc="Grep search"})
+      vim.keymap.set("n", "<leader>gb", builtin.buffers, {desc="Buffers"})
 
       require("telescope").load_extension("ui-select")
     end,
