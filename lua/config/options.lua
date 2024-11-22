@@ -22,5 +22,7 @@ vim.keymap.set('n', '<c-right>', function () vim.cmd.wincmd("l") end, {desc="Foc
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv",{desc="move line up(v)"})
 vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv",{desc="move line down(v)"})
 
+vim.keymap.set("n", "<leader>w", ":bw<cr>", {desc="Close buffer"})
+
 vim.cmd("set number")
 vim.cmd("set rnu")
