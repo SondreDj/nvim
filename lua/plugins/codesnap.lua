@@ -6,5 +6,6 @@ return {
       watermark = "",
       bg_padding = 5
     })
-  end
+  end,
+  enabled = (vim.fn.has("win32") ~= 1)
 }
