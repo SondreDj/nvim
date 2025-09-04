@@ -1,6 +1,6 @@
 return {
-    "NvChad/nvim-colorizer.lua",
-    event = "BufReadPre",
-    opts = { -- setup opts
-    },
+  "catgoose/nvim-colorizer.lua",
+  event = "BufReadPre",
+  opts = { -- setup opts
+  },
 }

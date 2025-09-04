@@ -1,9 +1,9 @@
 return {
   "lewis6991/gitsigns.nvim",
-  config = function ()
+  config = function()
     require("gitsigns").setup({
       current_line_blame = true
     })
-    vim.keymap.set("n", "<leader>lb", require("gitsigns").toggle_current_line_blame, {desc="Toggle current line blame"})
+    vim.keymap.set("n", "<leader>lb", require("gitsigns").toggle_current_line_blame, { desc = "Toggle current line blame" })
   end
 }

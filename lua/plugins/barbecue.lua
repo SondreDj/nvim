@@ -9,7 +9,7 @@ return {
   opts = {
     -- configurations go here
   },
-  config = function ()
+  config = function()
     -- triggers CursorHold event faster
     vim.opt.updatetime = 200
 
